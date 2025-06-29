@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VibeSpot</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <h1>VibeSpot</h1>
+    <p>Find your sound, feel your mood.</p>
+  </header>
+
+  <section class="moods">
+    <h2>Choose Your Mood</h2>
+    <div class="mood-grid">
+      <div class="mood-card">
+        <img src="calm mood 2.jpg" alt="Calm Mood" />
+        <p>Calm</p>
+      </div>
+      <div class="mood-card">
+        <img src="bold mood2.jpg" alt="Bold Mood" />
+        <p>Bold</p>
+      </div>
+      <div class="mood-card">
+        <img src="romatic.jpg" alt="Romantic Mood" />
+        <p>Romantic</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="artists">
+    <h2>Featured Artists</h2>
+    <div class="artist-grid">
+      <div class="artist-card">
+        <img src="calm image 3.jpg" alt="Artist Na" />
+        <p>Soléna</p>
+      </div>
+      <div class="artist-card">
+        <img src="bold image.jpg" alt="Artist Name" />
+        <p>Kai Lo</p>
+      </div>
+      <div class="artist-card">
+        <img src="romatic image.jpg" alt="Artist Name" />
+        <p>Mara J</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="submit-vibe">
+    <h2>Submit Your Vibe</h2>
+    <form id="vibe-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="text" name="mood" placeholder="Your Mood or Song" required />
+      <button type="submit">Send</button>
+    </form>
+    <p class="message" id="message"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 VibeSpot. Built with rhythm by Oma 💛</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
